@@ -64,6 +64,7 @@ header {
 @media screen and (max-width:576px) {
     .header-nav{
         flex-direction: column;
+        justify-content: space-around;
         text-align: center;
     }
     .header-content{
@@ -84,6 +85,7 @@ header {
     .header-img-content img{
         max-width: 200px;
         background-size: 95%;
+        background-position: center;
          /* margin-left: 51px;  */
     }
     .camera{
@@ -94,7 +96,7 @@ header {
         margin-right: auto;
     }
     .header-options a{
-        margin-right: 1rem;
+        margin-right: rem;
     }
     .header-titel{
         font-size: 20px;
