@@ -220,7 +220,11 @@ main {
     }
     .features-image{
         margin-top: 40px;
-        width: 290px;
+        margin-left: auto;
+        margin-right: auto;   
+    }
+    .f-image{
+        width: 299px;
     }
 
 }
