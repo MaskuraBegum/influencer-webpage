@@ -67,6 +67,9 @@ header {
         justify-content: center;
         text-align: center;
     }
+    .header-options{
+        width: 90%;
+    }
     .header-content{
         flex-direction: column-reverse;
     }
@@ -96,7 +99,8 @@ header {
         margin-right: auto;
     }
     .header-options a{
-        margin-right: rem;
+        margin-right: 1rem;
+        font-size: 14px;
     }
     .header-titel{
         font-size: 20px;
