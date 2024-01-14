@@ -49,6 +49,8 @@ header {
     border: none;
 }
 
+
+
 .header-img-content img{
     background: url("../images/Circle\ design.svg");
     background-repeat: no-repeat;
@@ -61,6 +63,20 @@ header {
     justify-content: space-between;
     margin-top: 50px;
 }
+
+/*main-section*/
+main{
+    margin: 0px 200px;
+}
+/*logos-style*/
+.image-container{
+    display: flex;
+    gap:60px;
+}
+
+
+
+
 @media screen and (max-width:576px) {
     .header-nav{
         flex-direction: column;
@@ -108,5 +124,19 @@ header {
     .header-description{
         font-size: 14px;
     }
+    main{
+        margin: 0px;
+    }
+    .image-container{
+        margin-top: 60px;
+        flex-wrap: wrap;
+        gap:  20px 50px;
+        justify-content: center;
+    
+    }
+    .img{
+        width: 44px;
+    }
+    
 
 }
