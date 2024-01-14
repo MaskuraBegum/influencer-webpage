@@ -51,92 +51,132 @@ header {
 
 
 
-.header-img-content img{
+.header-img-content img {
     background: url("../images/Circle\ design.svg");
     background-repeat: no-repeat;
 }
-.header-text-content{
+
+.header-text-content {
     width: 505px;
 }
-.header-content{
+
+.header-content {
     display: flex;
     justify-content: space-between;
     margin-top: 50px;
 }
 
 /*main-section*/
-main{
+main {
     margin: 0px 200px;
 }
+
 /*logos-style*/
-.image-container{
+.image-container {
     display: flex;
-    gap:60px;
+    gap: 60px;
 }
 
-
+/*card-section*/
+.card {
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+    padding: 15px;
+}
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+    margin-top: 100px;
+    
+}
 
 
 @media screen and (max-width:576px) {
-    .header-nav{
+    .header-nav {
         flex-direction: column;
         justify-content: center;
         text-align: center;
     }
-    .header-options{
+
+    .header-options {
         width: 90%;
     }
-    .header-content{
+
+    .header-content {
         flex-direction: column-reverse;
     }
-    .header-text-content{
+
+    .header-text-content {
         width: 100%;
         text-align: center;
         margin-right: 0px;
     }
-    .header-text-content button{
+
+    .header-text-content button {
         margin: 0 auto;
     }
-    header{
+
+    header {
         margin: 0;
         max-width: 550px;
     }
-    .header-img-content img{
+
+    .header-img-content img {
         max-width: 200px;
         background-size: 95%;
         background-position: center;
-         /* margin-left: 51px;  */
+        /* margin-left: 51px;  */
     }
-    .camera{
+
+    .camera {
         display: flex;
         justify-self: center;
         align-self: center;
         margin-left: auto;
         margin-right: auto;
     }
-    .header-options a{
+
+    .header-options a {
         margin-right: 1rem;
         font-size: 14px;
     }
-    .header-titel{
+
+    .header-titel {
         font-size: 20px;
     }
-    .header-description{
+
+    .header-description {
         font-size: 14px;
     }
-    main{
+
+    main {
         margin: 0px;
     }
-    .image-container{
+
+    .image-container {
         margin-top: 60px;
         flex-wrap: wrap;
-        gap:  20px 50px;
+        gap: 20px 50px;
         justify-content: center;
-    
+
     }
-    .img{
+
+    .img {
         width: 44px;
     }
-    
+    .card-container{
+        grid-template-columns: repeat(1,1fr);
+        justify-self: center;
+    }
+    .card{
+        max-width: 329px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
 
 }
